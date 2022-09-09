@@ -1,6 +1,6 @@
 pipeline {
     agent any
-    }
+
     environment {
             RHT_OCP4_DEV_USER = 'eyqcuv'
             DEPLOYMENT_STAGE = 'shopping-cart-stage'
