@@ -1,8 +1,5 @@
 pipeline {
-    agent {
-        node {
-            label 'maven'
-        }
+    agent any
     }
     environment {
             RHT_OCP4_DEV_USER = 'eyqcuv'
